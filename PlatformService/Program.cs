@@ -1,7 +1,15 @@
+using PlatformService.Data;
+using Microsoft.EntityFrameworkCore;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddDbContext<AppDbContext>(opt =>                                        //we set options to what type of DB we like to use //using in-memory db 
+ opt.UseInMemoryDatabase("DbName_Something"));  
+
+builder.Services.AddScoped<IPlatformRepo,PlatformRepo>();                                    
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

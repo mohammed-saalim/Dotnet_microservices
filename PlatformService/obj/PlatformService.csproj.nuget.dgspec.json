@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\callh\\OneDrive\\Documents\\Microservices_Dotnet\\PlatformService\\PlatformService.csproj": {}
+    "C:\\Users\\callh\\OneDrive\\Documents\\GitHub\\Dotnet_microservices\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\callh\\OneDrive\\Documents\\Microservices_Dotnet\\PlatformService\\PlatformService.csproj": {
+    "C:\\Users\\callh\\OneDrive\\Documents\\GitHub\\Dotnet_microservices\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\callh\\OneDrive\\Documents\\Microservices_Dotnet\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "C:\\Users\\callh\\OneDrive\\Documents\\GitHub\\Dotnet_microservices\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "C:\\Users\\callh\\OneDrive\\Documents\\Microservices_Dotnet\\PlatformService\\PlatformService.csproj",
+        "projectPath": "C:\\Users\\callh\\OneDrive\\Documents\\GitHub\\Dotnet_microservices\\PlatformService\\PlatformService.csproj",
         "packagesPath": "C:\\Users\\callh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\callh\\OneDrive\\Documents\\Microservices_Dotnet\\PlatformService\\obj\\",
+        "outputPath": "C:\\Users\\callh\\OneDrive\\Documents\\GitHub\\Dotnet_microservices\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\callh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,28 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
